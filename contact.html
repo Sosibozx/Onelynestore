@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         * {padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+         }
+		body {width: 100%;
+		   overflow-x: none;
+		   justify-content: center;
+		}
+		#above-nav {position: sticky;
+		   top: 0px;
+	   	   height: 50px;
+		   background-color: rgba(30, 30, 30, 1);
+		   text-align: center;
+		   align-content: center;
+		   color: lightgrey;
+		}
+		.container1 {background-color: #e3e7f1;
+		   display: flex;
+		   justify-content: space-between;
+		   padding: 15px;
+		   position: sticky;
+		   top: 50px;
+		}
+		.container1 p {background-image: linear-gradient(45deg, black, red);
+		   -webkit-text-fill-color: transparent;
+		   -webkit-background-clip: text;
+		   align-content: center;
+		   border-radius: 50%;
+		}
+		.container1 button {background: transparent;
+		   padding: 4px 5px;
+		   justify-content: space-around;
+		   margin: 3px;
+		   border: none;
+		   border-radius: 6px;
+		}
+		.nav button:hover {background: brown;
+		   color: white;
+		   transition: 2s;
+		   transform: scale(1.2);
+		   cursor: pointer;
+		}
+	    button a:hover {color: white;
+		}
+	    a {text-decoration: none;
+		   color: #343434;
+		   font-weight: bold;
+		   font-family: arial;
+		}
+		footer {background-color: #e3e7f1;
+	       position: sticky;
+		   bottom: 0px;
+		   padding: 30px;
+		   width: 100%;
+		   height: 6%;
+		   text-align: center;
+		   font-size: 0.6em;
+		}
+      </style>
+   </head>
+   
+   <body>
+         <div id="above-nav"><h2>1st Web Design & Development</h2></div>
+	   <div class="container1">
+	      <p style="font-weight: bold;">LOGO</p>
+	      <div class="nav">
+	         <button><a href="index.html" >HOME</a></button>
+	         <button><a href="gallery.html" >GALLERY</a></button>
+	         <button><a href="shop.html" >SHOPPING</a></button>
+	         <button><a href="contact.html" >CONTACT</a></button>
+	      </div>
+	   </div>
+	   
+	   <h1>CONTACT</h1>
+	   <footer>
+	      <p>html css & javascript website practice reserved@ </p>
+	   </footer>
+   </body>
+</html>
